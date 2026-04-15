@@ -1,0 +1,30 @@
+# robots.txt — Qordova Labs Inc
+# https://qordova.com
+
+# Allow all compliant crawlers
+User-agent: *
+Allow: /
+
+# Block API and internal routes
+Disallow: /api/
+Disallow: /admin/
+Disallow: /internal/
+Disallow: /dashboard/
+
+# Block offline fallback from indexing
+Disallow: /offline
+
+# Sitemap
+Sitemap: https://qordova.com/sitemap.xml
+
+# Google
+User-agent: Googlebot
+Allow: /
+Disallow: /api/
+Sitemap: https://qordova.com/sitemap.xml
+
+# Bing
+User-agent: Bingbot
+Allow: /
+Disallow: /api/
+Sitemap: https://qordova.com/sitemap.xml
