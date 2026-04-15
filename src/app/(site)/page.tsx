@@ -32,7 +32,7 @@ export default function HomePage() {
             regulated environments.
           </>
         }
-        subhead="Qordova Labs Inc is the parent company. KAIS is its flagship governed AI execution platform � built to govern how AI is invoked, constrained, audited, and evidenced across providers, teams, and workflows."
+        subhead="Qordova Labs Inc is the parent company. KAIS is its flagship governed AI execution platform, built to govern how AI is invoked, constrained, audited, and evidenced across providers, teams, and workflows."
         primaryCta={{ label: 'Request Briefing', href: '/contact' }}
         secondaryCta={{ label: 'See KAIS', href: '/kais' }}
       />
@@ -93,7 +93,7 @@ export default function HomePage() {
         body={
           <div className="flex flex-col gap-4">
             <p className="text-[16px] text-[#B8B8B0] leading-[1.75]">
-              KAIS is a governed AI execution platform for enterprise environments. It acts as the control surface through which AI execution is approved, bounded, audited, and reviewed.
+              KAIS is the flagship governed AI execution platform of Qordova Labs Inc. It acts as the control surface through which AI execution is approved, bounded, audited, and reviewed.
             </p>
             <p className="text-[13px] text-[#888884] leading-[1.7] font-mono tracking-[0.03em]">
               ORION — Orchestrated Reasoning and Intelligence Over Networks — is the sole permit issuer within KAIS. No ORION permit, no execution.
@@ -237,11 +237,11 @@ export default function HomePage() {
         heading="What enterprises ask about Qordova."
         background="surface"
         items={[
-          { q: 'What is Qordova?',                       a: 'Qordova Labs Inc is a Singapore-incorporated company that builds governed AI infrastructure for enterprise and regulated environments. Its flagship platform is KAIS.' },
+          { q: 'What is Qordova Labs Inc?',                       a: 'Qordova Labs Inc is the parent company. It is a Singapore-incorporated company that builds governed AI infrastructure for enterprise and regulated environments. KAIS is its flagship platform.' },
           { q: 'What is KAIS?',                          a: 'KAIS is a governed AI execution platform from Qordova Labs Inc. It provides permit-bound, fail-closed execution authority through ORION. KAIS governs whether AI execution is allowed to proceed, under what conditions, and produces immutable audit evidence.' },
           { q: 'What is ORION?',                         a: 'ORION — Orchestrated Reasoning and Intelligence Over Networks — is the control plane authority inside KAIS. ORION is the sole permit issuer. No ORION permit means no execution.' },
-          { q: 'How does KAIS differ from an AI gateway?', a: 'AI gateways focus on request routing, cost controls, and throughput. KAIS centers permit-bound execution governance as its constitutional core. Adjacent systems may intercept or route requests, but that is not equivalent to ORION-issued execution authority with fail-closed enforcement and immutable audit obligations.' },
-          { q: 'Who is Qordova for?',                    a: 'Qordova is for enterprise and regulated-sector organizations that need AI execution to remain bounded, reviewable, and auditable — including financial services, healthcare, public sector, and multi-provider enterprise environments.' },
+          { q: 'How is KAIS different from an AI gateway?', a: 'AI gateways focus on request routing, cost controls, and throughput. KAIS centers permit-bound execution governance as its constitutional core. Adjacent systems may intercept or route requests, but that is not equivalent to ORION-issued execution authority with fail-closed enforcement and immutable audit obligations.' },
+          { q: 'Who is this for?',                    a: 'Qordova Labs Inc and KAIS serve enterprise and regulated-sector organizations that need AI execution to remain bounded, reviewable, and auditable, including financial services, healthcare, public sector, and multi-provider enterprise environments.' },
         ]}
       />
 
@@ -255,4 +255,15 @@ export default function HomePage() {
     </>
   )
 }
+
+
+
+
+
+
+
+
+
+
+
 
