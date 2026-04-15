@@ -84,7 +84,7 @@ export default function Header() {
               Qordova Labs Inc
             </span>
             <span className="font-mono text-[9px] tracking-[0.16em] uppercase text-[#C8A84B] leading-none">
-              Governed AI Infrastructure
+              Governed AI Infrastructure for Enterprise
             </span>
           </Link>
 
@@ -182,3 +182,4 @@ export default function Header() {
     </>
   )
 }
+

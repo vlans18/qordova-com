@@ -32,7 +32,7 @@ export default function HomePage() {
             regulated environments.
           </>
         }
-        subhead="Qordova builds infrastructure that governs how AI is invoked, constrained, audited, and evidenced across providers, teams, and workflows."
+        subhead="Qordova Labs Inc is the parent company. KAIS is its flagship governed AI execution platform — built to govern how AI is invoked, constrained, audited, and evidenced across providers, teams, and workflows."
         primaryCta={{ label: 'Request Briefing', href: '/contact' }}
         secondaryCta={{ label: 'See KAIS', href: '/kais' }}
       />
@@ -255,3 +255,4 @@ export default function HomePage() {
     </>
   )
 }
+
