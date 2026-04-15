@@ -33,8 +33,8 @@ export default function Footer() {
               </span>
             </Link>
             <p className="text-[13px] text-[#888884] leading-relaxed max-w-[280px]">
-              Governed AI execution for enterprise and regulated environments.
-              KAIS is the flagship platform for AI execution control.
+              Qordova Labs Inc is the parent company. KAIS is its flagship
+              governed AI execution platform for enterprise and regulated environments.
             </p>
           </div>
 
@@ -67,7 +67,7 @@ export default function Footer() {
         <div className="pt-8 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
 
           <p className="font-mono text-[9.5px] tracking-[0.12em] uppercase text-[#555552]">
-            QORDOVA LABS INC PTE. LTD.
+            KAIS, a product of Qordova Labs Inc Pte. Ltd., Singapore.
           </p>
 
           <ul className="flex items-center gap-6">
